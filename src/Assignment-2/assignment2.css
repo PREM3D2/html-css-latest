@@ -5,3 +5,63 @@
 width: 100%;
 height: 100%;
 }
+body{
+    border : 1px solid black;
+}
+header{
+    border: 1px solid black;
+    background:chartreuse;
+    margin:10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-top:  20px;
+    padding-bottom:10px;
+}
+form{
+    float:right;
+    margin:70px;
+    font-size: 10px;
+    
+}
+
+.links{
+    border:1px solid black;
+    font-size: 40px;
+    margin:10px;
+    padding:5px;
+    text-align:center;
+
+}
+.mainbody{
+    width:100%;
+}
+aside{
+    width:20%;
+    background:greenyellow;
+    border:1px solid black;
+    
+}
+.left-sidebar ul li{
+    list-style: none;
+}
+.right-sidebar ul li{
+    list-style: none;
+}
+aside,section{
+    display:inline-block;
+    margin:5px;
+}
+section{
+    width:50%
+}
+footer{
+    margin:10px;
+    border:1px solid black;
+    padding:5px;
+}
+
+
+
