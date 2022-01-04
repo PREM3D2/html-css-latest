@@ -5,3 +5,53 @@
 width: 100%;
 height: 100%;
 }
+body{
+    background: #F2F2F2;
+    height:100%;
+}
+.container-1{
+    width: 100%;
+    height:33.33%;
+  }
+  .button-1{
+    display: inline-block;
+    width: 45%;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: left;
+  }
+  .iframe-1 {
+    display: inline-block;
+    width: 45%;
+  }
+  #render-wiki {
+    width: 50vw;
+    height: 200px;
+    font-size: 60px;
+  }
+.container-2{
+    width:100%;
+    margin-top:100px;
+    height: 33.33%;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.container-3{   
+    margin-top:100px;
+    width:100%;
+    font-size: 20px;
+    height: 33.33%;
+    margin-left: 40px;
+    
+    margin-bottom:100px;
+}
+#render-dictionary{
+    width: 100vw;
+    height: 200px;
+    font-size: 60px;
+    margin-right: 40px;
+    
+}
