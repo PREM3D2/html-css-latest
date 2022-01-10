@@ -10,60 +10,58 @@ body{
 }
 
 .card{
- 
-    margin:30px;
-    margin-top:60px;
-    height:600px;
+    display:flex;
     background-color: white;
+    margin:50px;
+    height:600px;
 }
-.left-side,.right-side{
-    display:inline-block;
+
+.top-image{
+    width:500px;
+    height:450px;
+    position: relative;
+    top:-30px;
+    left:-30px;
+    
 }
 
 .left-side{
+    background-color: yellowgreen;
     width:20%;
-    height:400px;
-    background-color: greenyellow;
-    height:600px;
-    text-align: center;
-
-    
 }
-
 .right-side{
-    width:60%;
-    display:block;
-    float:right;
-    margin-top:100px;
-    
-}
-.img{
-    height:500px;
-    width: 600px;
-    margin-bottom: 30px;
+    margin-left: 50px;
+    padding-left:60px;
+    padding-top:50px;
     
 }
 
 .right-side h2{
-    font-size: 60px;
-
+    font-weight: bolder;
+    font-size: 80px;
+    margin-bottom: 20px;
+    
 }
 
 .right-side p{
-    font-size: 40px;
-}
-
-.right-side a {
     font-size: 30px;
-    border-radius:40px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    padding:30px;
-    padding-right: 50px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.bottom-image{
+    width:500px;
+    height:450px;
+    position: relative;
+    top:30px;
+    left:-30px;   
 }
 
 .btn{
-    background-color: greenyellow;
-    
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 40px;
+    background-color:greenyellow;
+}
+.right-side a{
+    padding:15px;
 }
